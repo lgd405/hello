@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="c0de836d23e6472792d93a66fdb91e31" class="chart-container" style="width:1600px; height:800px;"></div>
+    <script>
+        var chart_c0de836d23e6472792d93a66fdb91e31 = echarts.init(
+            document.getElementById('c0de836d23e6472792d93a66fdb91e31'), 'white', {renderer: 'canvas'});
+        var option_c0de836d23e6472792d93a66fdb91e31 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "gauge",
+            "detail": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value}%"
+            },
+            "name": "\u4e1a\u52a1\u6307\u6807",
+            "min": 0,
+            "max": 100,
+            "splitNumber": 10,
+            "startAngle": 225,
+            "endAngle": -45,
+            "data": [
+                {
+                    "name": "\u5b8c\u6210\u7387",
+                    "value": 70.5
+                }
+            ]
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4e1a\u52a1\u6307\u6807"
+            ],
+            "selected": {
+                "\u4e1a\u52a1\u6307\u6807": true
+            },
+            "show": false
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "formatter": "{a} <br/>{b} : {c}%",
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {}
+    ]
+};
+        chart_c0de836d23e6472792d93a66fdb91e31.setOption(option_c0de836d23e6472792d93a66fdb91e31);
+    </script>
+</body>
+</html>
